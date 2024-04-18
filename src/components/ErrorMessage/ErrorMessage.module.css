@@ -7,5 +7,5 @@
 .container p {
   font-size: 32px;
   font-weight: 700;
-  color: gray;
+  color: var(--color-gray);
 }

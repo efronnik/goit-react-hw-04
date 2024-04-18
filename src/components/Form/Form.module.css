@@ -20,16 +20,17 @@
 
   transition: border-color 0.25s ease;
 
-  color: black;
+  color: var(--color-dark);
   font-weight: 300;
   letter-spacing: 0.03em;
 }
+
 .input::placeholder {
   font-weight: 200;
 }
 
 .input:focus {
-  border-color: gray;
+  border-color: var(--color-gray);
 }
 
 .button {
@@ -39,7 +40,7 @@
   font-size: 20px;
   font-weight: bold;
 
-  color: gray;
+  color: var(--color-gray);
   background-color: transparent;
 
   border-radius: 50%;
@@ -53,5 +54,5 @@
 
 .button:hover,
 .button:focus {
-  color: blue;
+  color: var(--color-blue);
 }

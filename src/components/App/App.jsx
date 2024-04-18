@@ -1,16 +1,16 @@
 import {useState} from "react";
 
 import css from "./App.module.css";
-import ImageGallery from "../ImageGallery/ImageGallery.jsx";
-import ImageModal from "../ImageModal/ImageModal.jsx";
-import SearchBar from "../SearchBar/SearchBar.jsx";
-import Loader from "../Loader/Loader.jsx";
-import LoadMoreBtn from "../LoadMoreBtn/LoadMoreBtn.jsx";
-import Container from "../../Container/Container.jsx";
-import MainSection from "../MainSection/MainSection.jsx";
-import Notification from "../Notification/Notification.jsx";
-import ErrorMessage from "../ErrorMessage/ErrorMessage.jsx";
-import {usePhotos} from "../../hooks/usePhotos.js";
+import ImageGallery from "../ImageGallery/ImageGallery";
+import ImageModal from "../ImageModal/ImageModal";
+import SearchBar from "../SearchBar/SearchBar";
+import Loader from "../Loader/Loader";
+import LoadMoreBtn from "../LoadMoreBtn/LoadMoreBtn";
+import Container from "../Container/Container";
+import MainSection from "../MainSection/MainSection";
+import Notification from "../Notification/Notification";
+import ErrorMessage from "../ErrorMessage/ErrorMessage";
+import {usePhotos} from "../../hooks/usePhoto";
 
 function App() {
   const {page, photos, totalPages, isLoading, error, searchPhotos, loadMore} =
